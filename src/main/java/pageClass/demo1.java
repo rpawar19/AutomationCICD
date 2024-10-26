@@ -6,7 +6,7 @@ import dev.failsafe.internal.util.Assert;
 public class demo1 extends Base {
 
     public void openSite(){
-        webdriver.get("https:www.//google.com");
+        webdriver.get("https://www.google.com");
 
     }
     public void openSite2(){
