@@ -8,7 +8,12 @@ public class demo1 extends Base {
         webdriver.get("https://google.com");
 
     }
+    public void getURL(){
+        String url = webdriver.getCurrentUrl();
+        System.out.println("Current Page URL is : "+url);
+
+    }
     public void closeBrowser(){
-        webdriver.quit();
+        webdriver.close();
     }
 }
