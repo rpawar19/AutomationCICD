@@ -23,6 +23,6 @@ public class demo1test extends Base {
         demo.openSite2();
         System.out.printf("This is from TestCase2");
         currenturl=webdriver.getCurrentUrl();
-        Assert.assertTrue(currenturl.contains("https://www.vipsha.com"));
+        Assert.assertTrue(currenturl.contains("https://www.pytheta.com/"));
     }
 }

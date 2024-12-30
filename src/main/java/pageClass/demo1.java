@@ -10,7 +10,7 @@ public class demo1 extends Base {
 
     }
     public void openSite2(){
-        webdriver.get("https:www.vipsha.com");
+        webdriver.get("https://www.pytheta.com");
     }
     public void getURL(){
         String url = webdriver.getCurrentUrl();
